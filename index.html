@@ -7,40 +7,36 @@
 body {
     font-family: Arial, sans-serif;
     background: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    text-align: center;
+    padding: 60px;
 }
 
 .container {
+    max-width: 600px;
+    margin: auto;
     background: white;
     padding: 40px;
     border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-iframe {
-    width: 100%;
-    max-width: 480px;
-    height: 320px;
-    border: 1px solid #EEE;
-    background: white;
+h1 {
+    margin-bottom: 20px;
 }
 </style>
+
 </head>
 
 <body>
+
 <div class="container">
 
-<!-- Optional: add a logo above iframe -->
-<!-- <img src="logo.png" alt="My Logo" style="max-width:200px; margin-bottom:20px;"> -->
+<!-- SUBSTACK SIGNUP FORM GOES BELOW -->
 
-<!-- Substack signup form -->
-<iframe src="https://johnjameson.substack.com/embed" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://johnjameson.substack.com/embed" width="480" height="320" style="border: 1px solid #EEE; background: white" frameborder="0" scrolling="no"></iframe>
+
+<!-- END SUBSTACK FORM -->
 
 </div>
+
 </body>
 </html>
